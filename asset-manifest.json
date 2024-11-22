@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Techstudio/static/css/main.eb0df4f3.css",
+    "main.js": "/Techstudio/static/js/main.d4525c4a.js",
+    "static/js/453.efc2087a.chunk.js": "/Techstudio/static/js/453.efc2087a.chunk.js",
+    "index.html": "/Techstudio/index.html",
+    "main.eb0df4f3.css.map": "/Techstudio/static/css/main.eb0df4f3.css.map",
+    "main.d4525c4a.js.map": "/Techstudio/static/js/main.d4525c4a.js.map",
+    "453.efc2087a.chunk.js.map": "/Techstudio/static/js/453.efc2087a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb0df4f3.css",
+    "static/js/main.d4525c4a.js"
+  ]
+}
