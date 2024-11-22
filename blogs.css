@@ -1,0 +1,148 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+/* blogs.css */
+
+/* General Styles */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Featured Article */
+  .article-featured {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .article-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .article-image {
+    width: 100%; /* Full width */
+    height: auto; /* Automatic height to maintain aspect ratio */
+    max-height: 500px; /* Set a maximum height for the image */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  
+  .article-info {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .article-body {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .article-read-more {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .article-read-more:hover {
+    text-decoration: underline;
+  }
+  
+  /* Recent Articles */
+  .article-recent {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .article-recent-main {
+    flex: 2;
+    margin-right: 15px;
+  }
+  
+  .article-recent-secondary {
+    flex: 1;
+  }
+  
+  .article-recent img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .article-info {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  /* FAQ Section */
+  .faq-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .faq-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .faq-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  
+  .faq-question {
+    font-size: 16px;
+    color: #007BFF;
+    cursor: pointer;
+  }
+  
+  .faq-question:hover {
+    text-decoration: underline;
+  }
+  
+  .faq-answer {
+    padding-left: 15px;
+    color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

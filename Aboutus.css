@@ -1,0 +1,157 @@
+.about-container {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  margin-top: 20px;
+}
+
+.company-overview {
+  text-align: center; /* Center title and paragraph */
+  margin-bottom: 40px; /* Space between overview and boxes */
+}
+
+.company-title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #4b2fae;
+  margin-bottom: 20px;
+}
+
+.company-description {
+  max-width: 1100px; /* Limit width for better readability */
+  margin: 0 auto; /* Center the paragraph */
+  text-align: center; /* Center-aligns the text */
+  margin-top: 40px;
+  color : black;
+  font-size : 20px
+}
+
+.company-container {
+  display: flex;
+  justify-content: center; /* Center the boxes */
+  gap: 70px; /* Space between boxes */
+  width: 100%; /* Allow boxes to adjust to full width */
+}
+
+.company-box {
+  width: 300px; /* Width of the boxes */
+  background-color: #e8eaf6;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center; /* Align text to the left for better readability */
+  color: #4b2fae;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.company-box:hover {
+  transform: translateY(-5px);
+}
+
+.company-box h4 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #4b2fae;
+}
+
+.company-box ul {
+  list-style-type: disc; /* Use bullet points */
+  padding-left: 20px; /* Indentation for bullet points */
+}
+
+.company-box li {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Why Techstudio Section */
+.why-techstudio-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.why-techstudio-text {
+  flex: 1;
+  text-align: left;
+}
+
+.why-techstudio-text h2 {
+  font-size: 50px;
+  color: #4b2fae;
+  margin-bottom: 10px;
+}
+
+.why-techstudio-text p {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.why-techstudio-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-techstudio-image img {
+  max-width: 200%;
+  border-radius: 8px;
+ 
+}
+
+/* Our Team Section */
+.our-team {
+  max-width: 1200px; /* Limit the width for better layout */
+  margin: 40px auto; /* Center the section */
+  padding: 20px;
+  text-align: center; /* Center-align the title */
+}
+
+.team-title h2 {
+  font-size: 34px; /* Title font size */
+  color: #4b2fae; /* Title color */
+  margin-bottom: 30px; /* Space below the title */
+}
+
+.team-box {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-around; /* Space the items evenly */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  gap: 130px; /* Space between team members */
+}
+
+.team {
+  flex: 1; /* Allow the team member boxes to grow */
+  max-width: 200px; /* Set a maximum width for each team member */
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center; /* Center the content */
+  text-align: center; /* Center text */
+  background-color: inherit; /* Use a background color based on the parent or set dynamically */
+}
+
+.team img {
+  width: 200px; /* Adjusted width for a uniform circle */
+  height: 240px; /* Make height equal to width for a perfect circle */
+  object-fit: cover; /* Crop the image to fit within the circle */
+  border-radius: 50%; /* Make the image circular */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  margin-bottom: 10px; /* Space below the image */
+  background-color: var(--dynamic-bg-color); /* Use a variable for background color */
+}
+
+
+.team p {
+  font-size: 16px; /* Font size for roles */
+  color: #333; /* Text color for roles */
+}
+

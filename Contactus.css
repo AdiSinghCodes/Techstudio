@@ -1,0 +1,153 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #f9fbff;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  max-width: 600px;
+  padding-right: 20px;
+}
+
+.contact-info h2 {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 26px;
+  color: #555;
+}
+
+.contact-info li {
+  margin-bottom: 5px;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 20px; /* Add spacing above social links */
+}
+
+.social-links a {
+  margin-right: 15px;
+  color: #4b2fae; /* Change color as needed */
+  font-size: 30px; /* Adjust icon size */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-links a:hover {
+  color: #0077b5; /* LinkedIn hover color */
+}
+
+.social-links a.instagram:hover {
+  color: #C13584; /* Instagram hover color */
+}
+
+.contact-image img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.contact-form {
+  padding: 40px;
+  background-color: #ffffff;
+  border-top: 2px solid #f0f0f0;
+  text-align: center;
+}
+
+.contact-form h3 {
+  font-size: 28px;
+  color: #4b2fae;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #4b2fae;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #3a2291;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
+
+.footer ul li a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer ul li a:hover {
+  color: #fff;
+}
+
+.footer-contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.status-message {
+  margin-top: 10px;
+  color: green; /* Use red for error messages */
+  font-weight: bold;
+}
